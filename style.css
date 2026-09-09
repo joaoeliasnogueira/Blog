@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+}
+header{
+    height: 200px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: hsl(240, 100%, 27%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    font-family: serif;
+    color: #ffffff;
+
+    line-height: 1.8;
+}
+.subtitulo{
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sub{
+    color: #FF6600;
+}
+.topico{
+    background: rgb(238, 238, 238);
+
+    height: calc(100vh - 230px);
+}
+.t_top{
+    text-align: center;
+
+    color: #FF6600;
+
+    margin-top: 1vh;
+}
+.topico p{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    margin-top: 1vh;
+    font-family: sans-serif;
+}
